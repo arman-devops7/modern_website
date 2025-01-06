@@ -32,8 +32,6 @@ plugins: [],
 @tailwind components;
 @tailwind utilities;
 
-npm run dev
-
 npm install react-router-dom
 
 npm install scroll-lock
