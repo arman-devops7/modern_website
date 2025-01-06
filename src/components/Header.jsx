@@ -1,6 +1,5 @@
 import { useLocation } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
-import { mw } from "../assets";
 import { navigation } from "../constants/index.js";
 import Button from "./Button.jsx";
 import MenuSvg from "../assets/svg/MenuSvg.jsx";
@@ -35,7 +34,7 @@ const Header = () => {
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
         <a className="block w-[12rem] xl:mr-8" href="#hero">
-          <img src={mw} width={190} height={40} alt="mw" />
+          <h1>ModernWeb</h1>
         </a>
 
         <nav
